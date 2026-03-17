@@ -3,9 +3,8 @@
 Official logos, icons, and brand guidelines for the **Namorix** ecosystem.
 
 ## 📥 Assets
-- **Primary Logo**: `logo/exports/namorix-main.svg`
-- **Icon Only**: `logo/exports/namorix-icon.png`
-- **Backbone Module Icon**: `logo/exports/backbone-icon.svg`
+- **Primary Logo**: `logo/namorix-logo.svg`
+- **Icon Only**: `logo/namorix-logo.png`
 
 ## 🎨 Brand Colors
 | Purpose | Color | Hex |
