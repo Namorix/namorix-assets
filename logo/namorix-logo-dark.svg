@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+    <title>Namorix Official Logo v1.0 (White Background Edition)</title>
+    <desc>Official brand asset for the Namorix Ecosystem. Created by Nguyen Danh Nam. Modified with a white background and white coloring.</desc>
+
+    <metadata>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+               xmlns:dc="http://purl.org/dc/elements/1.1/"
+               xmlns:cc="http://creativecommons.org/ns#">
+        <cc:Work rdf:about="">
+          <dc:title>Namorix Logo</dc:title>
+          <dc:date>2026</dc:date>
+          <dc:creator><cc:Agent><dc:title>Nguyen Danh Nam</dc:title></cc:Agent></dc:creator>
+          <dc:rights><cc:Agent><dc:title>Nguyen Danh Nam</dc:title></cc:Agent></dc:rights>
+          <cc:license rdf:resource="https://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+        </cc:Work>
+      </rdf:RDF>
+    </metadata>
+
+    <rect x="0" y="0" width="240" height="240" rx="54" ry="54" fill="#FF000000"/>
+
+    <g transform="translate(50, 50)">
+      <rect x="0" y="25" width="22" height="90" rx="11" fill="#007AFF"/>
+      <g transform="translate(50, 25)">
+        <rect x="34" y="-10" width="22" height="110" rx="11" fill="#FFFFFF" transform="rotate(45, 45, 45)"/>
+        <g transform="rotate(-45, 45, 45)">
+          <circle cx="45" cy="11" r="9" fill="#007AFF"/>
+          <circle cx="45" cy="34" r="9" fill="#007AFF"/>
+          <circle cx="45" cy="57" r="9" fill="#007AFF"/>
+          <circle cx="45" cy="80" r="9" fill="#007AFF"/>
+        </g>
+      </g>
+    </g>
+  </svg>
