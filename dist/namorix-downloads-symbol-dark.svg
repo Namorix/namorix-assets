@@ -3,7 +3,7 @@
   <metadata id="Namorix-Metadata-Block">
     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#">
       <cc:Work rdf:about="">
-        <dc:title>Namorix Asset - namorix-file-symbol-dark.svg</dc:title>
+        <dc:title>Namorix Asset - namorix-downloads-symbol-dark.svg</dc:title>
         <dc:date>2026</dc:date>
         <dc:creator>
           <cc:Agent>
@@ -20,5 +20,6 @@
     </rdf:RDF>
   </metadata>
   <path id="nmx-i" d="M72 86C72 79.9249 67.0751 75 61 75C54.9249 75 50 79.9249 50 86V154C50 160.075 54.9249 165 61 165C67.0751 165 72 160.075 72 154V86Z" fill="#007AFF"/>
-  <path id="nmx-glyph-fixed-1" d="M108.182 95.0909H124.545L136 82H181.818C186.727 82 190 85.2727 190 90.1818V149.091C190 154 186.727 157.273 181.818 157.273H108.182C103.273 157.273 100 154 100 149.091V103.273C100 98.3636 103.273 95.0909 108.182 95.0909Z" stroke="#FF9F0A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path id="nmx-glyph-fixed-1" d="M111.25 131.25C111.25 141.856 111.25 147.16 114.545 150.455C117.84 153.75 123.143 153.75 133.75 153.75H156.25C166.856 153.75 172.16 153.75 175.455 150.455C178.75 147.16 178.75 141.856 178.75 131.25" stroke="#FF9F0A" stroke-width="10" stroke-linecap="round"/>
+  <path id="nmx-glyph-fixed-2" d="M145 86.25V135M145 135L160 118.594M145 135L130 118.594" stroke="#FF9F0A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

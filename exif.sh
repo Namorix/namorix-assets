@@ -44,12 +44,12 @@ PALETTE_STATUS="#BF5AF2|#8944AB"     # Health, Logs, Addons
 declare -A COLORS
 COLORS["logo"]=$PALETTE_LOGO
 COLORS["sentinel"]=$PALETTE_SECURITY
-COLORS["file"]=$PALETTE_STORAGE
-COLORS["download"]=$PALETTE_STORAGE
+COLORS["files"]=$PALETTE_STORAGE
+COLORS["downloads"]=$PALETTE_STORAGE
 COLORS["thread"]=$PALETTE_NETWORK
-COLORS["setting"]=$PALETTE_SYSTEM
-COLORS["addon"]=$PALETTE_SYSTEM
-COLORS["log"]=$PALETTE_STATUS
+COLORS["settings"]=$PALETTE_SYSTEM
+COLORS["addons"]=$PALETTE_SYSTEM
+COLORS["logs"]=$PALETTE_STATUS
 # Names not listed above use the same D_SAT/L_SAT fallback as former default (#FFFFFF|#1C1C1E).
 
 # Remove the rounded-rect background path (fill = DARK_BG). Safe for single-line and
