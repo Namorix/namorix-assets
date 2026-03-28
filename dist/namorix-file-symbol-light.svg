@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" fill="none">
+  <metadata id="Namorix-Metadata-Block">
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#">
+      <cc:Work rdf:about="">
+        <dc:title>Namorix Asset - namorix-file-symbol-light.svg</dc:title>
+        <dc:date>2026</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Nguyen Danh Nam</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Nguyen Danh Nam</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path id="nmx-i" d="M72 86C72 79.9249 67.0751 75 61 75C54.9249 75 50 79.9249 50 86V154C50 160.075 54.9249 165 61 165C67.0751 165 72 160.075 72 154V86Z" fill="#005FB8"/>
+  <path id="nmx-glyph-fixed-1" d="M108.182 95.0909H124.545L136 82H181.818C186.727 82 190 85.2727 190 90.1818V149.091C190 154 186.727 157.273 181.818 157.273H108.182C103.273 157.273 100 154 100 149.091V103.273C100 98.3636 103.273 95.0909 108.182 95.0909Z" stroke="#C67400" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

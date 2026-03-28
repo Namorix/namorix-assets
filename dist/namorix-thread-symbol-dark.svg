@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" fill="none">
+  <metadata id="Namorix-Metadata-Block">
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#">
+      <cc:Work rdf:about="">
+        <dc:title>Namorix Asset - namorix-thread-symbol-dark.svg</dc:title>
+        <dc:date>2026</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Nguyen Danh Nam</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Nguyen Danh Nam</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path id="nmx-i" d="M72 86C72 79.9249 67.0751 75 61 75C54.9249 75 50 79.9249 50 86V154C50 160.075 54.9249 165 61 165C67.0751 165 72 160.075 72 154V86Z" fill="#007AFF"/>
+  <path d="M157.8 80H132.2C130.433 80 129 81.5919 129 83.5556V103.111C129 105.075 130.433 106.667 132.2 106.667H157.8C159.567 106.667 161 105.075 161 103.111V83.5556C161 81.5919 159.567 80 157.8 80Z" id="nmx-glyph-fixed-1" stroke="#64D2FF" stroke-width="9.55556" stroke-linecap="round" stroke-linejoin="round"/>
+  <path id="nmx-glyph-fixed-2" d="M129 106.667L113 133.333" stroke="#64D2FF" stroke-width="9.55556" stroke-linecap="round" stroke-linejoin="round"/>
+  <path id="nmx-glyph-fixed-3" d="M161 106.667L177 133.333" stroke="#64D2FF" stroke-width="9.55556" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M130.6 133.333H108.2C106.433 133.333 105 134.925 105 136.889V156.444C105 158.408 106.433 160 108.2 160H130.6C132.367 160 133.8 158.408 133.8 156.444V136.889C133.8 134.925 132.367 133.333 130.6 133.333Z" id="nmx-glyph-fixed-4" stroke="#64D2FF" stroke-width="9.55556" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M181.8 133.333H159.4C157.633 133.333 156.2 134.925 156.2 136.889V156.444C156.2 158.408 157.633 160 159.4 160H181.8C183.568 160 185 158.408 185 156.444V136.889C185 134.925 183.568 133.333 181.8 133.333Z" id="nmx-glyph-fixed-5" stroke="#64D2FF" stroke-width="9.55556" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
