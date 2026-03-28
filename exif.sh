@@ -20,9 +20,9 @@ DARK_I="#007AFF"
 LIGHT_I="#005FB8"
 
 # Masters draw satellite/outline as pure white on the dark card. Each PALETTE_* is
-# Dark|Light: build maps nmx-glyph-fixed-* white → D_SAT on *-box-dark / *-symbol-dark,
-# and white → L_SAT on *-box-light / *-symbol-light. Icons without a COLORS entry use
-# D_SAT/L_SAT fallback #FFFFFF / #1C1C1E (neutral on both themes).
+# Dark|Light: build maps nmx-glyph-fixed-* white → D_SAT / L_SAT on *-symbol-dark and
+# *-symbol-light only (no box-* outputs). Icons without a COLORS entry use D_SAT/L_SAT
+# fallback #FFFFFF / #1C1C1E (neutral on both themes).
 #
 # Logo: chỉ nmx-glyph-fixed-* theo PALETTE_LOGO. nmx-i và nmx-glyph-no-* giữ màu I hệ thống
 # (#007AFF / #005FB8 theo theme), không gán D_SAT|L_SAT.
@@ -40,7 +40,7 @@ PALETTE_SYSTEM="#FF453A|#D70015"     # Settings, Manager, Core
 PALETTE_STATUS="#BF5AF2|#8944AB"     # Health, Logs, Addons
 
 # --- 4. ASSIGN ICONS TO GROUPS ---
-# Keys = basename stem after "namorix-" (e.g. icons/namorix-addon.svg → addon).
+# Keys MUST match the stem after "namorix-" (namorix-settings.svg → settings, not setting).
 declare -A COLORS
 COLORS["logo"]=$PALETTE_LOGO
 COLORS["sentinel"]=$PALETTE_SECURITY
@@ -207,11 +207,9 @@ while IFS= read -r -d '' MASTER; do
 
     mkdir -p "$OUT_DIR"
 
-    echo "Processing variants for: $REL → ${OUT_BASE}-*.svg (palette key: ${COLOR_KEY:-?})"
+    echo "Processing variants for: $REL → ${OUT_BASE}-symbol-{dark,light}.svg (palette key: ${COLOR_KEY:-?})"
 
     export DARK_BG LIGHT_BG DARK_I LIGHT_I D_SAT L_SAT GLYPH_WHITE GLYPH_ON_LIGHT
-    apply_dark_variant_svg < "$MASTER" > "${OUT_BASE}-box-dark.svg"
-    apply_light_variant_svg < "$MASTER" > "${OUT_BASE}-box-light.svg"
     strip_svg_path_with_bg_fill "$DARK_BG" < "$MASTER" | apply_dark_variant_svg > "${OUT_BASE}-symbol-dark.svg"
     strip_svg_path_with_bg_fill "$DARK_BG" < "$MASTER" | apply_light_variant_svg > "${OUT_BASE}-symbol-light.svg"
 done < <(find icons -type f -name 'namorix-*.svg' ! -name '*-box-*' ! -name '*-symbol-*' ! -path '*/.*' -print0)

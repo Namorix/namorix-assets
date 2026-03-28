@@ -8,7 +8,7 @@ Edit **master** SVGs by hand under **`icons/`** only (flat names, no `logo/` fol
 
 - **`icons/namorix-<name>.svg`** — artwork in the “box dark” style (rounded rect + glyph). Examples: `namorix-addon.svg`, `namorix-logo.svg`, `namorix-thread.svg`.
 
-Do **not** commit generated names in `icons/`: `*-box-*`, `*-symbol-*` (those are produced under `dist/`).
+Do **not** commit generated names in `icons/`: `*-symbol-*` (those are produced under `dist/`).
 
 ## 🔧 Build
 
@@ -20,8 +20,6 @@ bash exif.sh
 
 Outputs go to **`dist/`**:
 
-- `namorix-<name>-box-dark.svg` (copy of the master)
-- `namorix-<name>-box-light.svg`
 - `namorix-<name>-symbol-dark.svg`
 - `namorix-<name>-symbol-light.svg`
 
